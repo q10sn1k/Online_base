@@ -1,0 +1,42 @@
+#frame {
+    width: 1000px; /* ширина */
+    margin: auto; /* Выравнивание по центру */
+    display: table; /* Отображение в табличной форме */
+    height: 100%; /* Высота */
+    background-color: aqua; /* Цвет фона */
+}
+
+#header {
+    width: 940px; /* ширина */
+    height: 50px; /* Высота */
+    margin: auto; /* Выравнивание по центру */
+    margin-top: 10px; /* Отступ от верхней границы сайта */
+    padding: 20px; /* Внутренний отступ */
+    text-align: center; /* Выравнивание текста по центру */
+    background-color: darkorange; /* Цвет фона */
+}
+
+#footer {
+    width: 940px; /* ширина */
+    height: 50px; /* Высота */
+    margin: auto; /* Выравнивание по центру */
+    margin-top: 10px; /* Отступ от верхней границы сайта */
+    padding: 20px; /* Внутренний отступ */
+    text-align: center; /* Выравнивание текста по центру */
+    display: table-footer-group; /* Представление как footer (нижняя часть сайта) */
+    background-color: brown; /* Цвет фона */
+}
+
+#content {
+    height: 900px; /* Высота */
+    width: 700px; /* Ширина */
+    float: left; /* Выравнивание блока по левой части */
+    background-color: indigo; /* Цвет фона */
+}
+
+#sidebar {
+    width: 200px; /* Ширина */
+    height: 700px; /* Высота */
+    margin: 30px; /* Выравнивание */
+    float: right; /* Позиционирование (выравнивание) блока справа */
+}
